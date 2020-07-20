@@ -8,7 +8,7 @@ public class CheckAge {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String name;//declaration
-        String question = "Hi, what is your name?";
+        String question = "Hello, what is your name?";
         System.out.println(question);
         name = input.next();//initialization
         question = "Ok " + name + " how old are you?";
